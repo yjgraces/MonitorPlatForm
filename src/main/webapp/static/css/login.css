@@ -1,0 +1,50 @@
+.login-con{
+    width: 360px;
+    margin: 100px auto 0;
+    overflow: hidden;
+    border: 1px solid #555;
+    padding-bottom: 20px;
+}
+.login-name{
+    line-height: 40px;
+    background: #cccccc ;
+    color: #333333;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid #555;
+}
+.login-items{
+    padding: 20px 20px 10px;
+    overflow: hidden;
+}
+.login-items li{
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.login-items li span:nth-child(1){
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+.login-items li input{
+    border: 1px solid #555;
+    background: #ffffff;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 10px;
+}
+.login-items li input.m-length{
+    width: 160px;
+}
+.login-items li input.s-length{
+    width: 90px;
+}
+.login-items li span img{
+    width: 70px;
+}
+
+.login-items li p.error{
+    color: #f00;
+    padding-left:84px;
+    line-height: 15px;
+}

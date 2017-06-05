@@ -1,0 +1,431 @@
+.content-wrap{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.content-c{
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 230px;
+    padding-bottom: 20px;
+    min-height: 460px;
+}
+.edit-act{
+    width: 1100px;
+    margin: 10px auto;
+    padding: 0;
+}
+.section-center{
+    width: 80%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.edit-act .section-center{
+    width: 100%
+}
+
+.set-infor,.actlist-infor{
+    border: 1px solid #555;
+}
+.set-infor-b{
+    margin-bottom: 10px;
+}
+.col-1{
+    width:20%;
+}
+.col-c1{
+    width: 8%;
+}
+.col-c2{
+    width: 15.5%;
+}
+.col-c3{
+    width: 13%;
+}
+.col-c4{
+    width: 14%;
+}
+.title-con{
+    margin-bottom: -1px;
+}
+.set-infor th,.actlist-infor th,.reward-infor th{
+    height: 40px;
+    line-height: 40px;
+    background: #333;
+    color: #fff;
+}
+.set-infor th.reward-title{
+    background: #8d8c8c;
+}
+.reward-infor tr:hover,.actlist-infor tr:hover{
+    background: #ececec;
+}
+.set-infor th h3,.actlist-infor th h3,.reward-infor th h3{
+    font-size: 16px;
+    font-weight: bolder;
+    padding-left: 20px;
+    float: left;
+}
+.act-result-title{
+    height:30px ;
+}
+.red{
+    color: #f00;
+}
+.black{
+    color: #c70202;
+}
+h3 .red{
+    font-size: 12px;
+}
+.set-infor tr,.set-infor td{
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #555;
+    vertical-align: top;
+}
+.set-infor td{
+    font-size: 13px;
+    padding-left: 20px;
+}
+.act-name-i{
+    display: inline-block;
+    width: 60%;
+}
+.act-name-i input{
+    width: 100%;
+    border: none;
+    padding:2px;
+    height: 22px;
+    background: none;
+    vertical-align: middle;
+}
+.act-name-i textarea{
+    width: 100%;
+    border: none;
+    padding:2px;
+    background: none;
+    vertical-align: middle;    
+}
+.act-name-i .act-des{
+    width:100%;
+    height:70px;
+    border: none;
+    padding: 20px 0 0;
+}
+.city-list{
+    margin-right: 10px;
+    display: inline-block;
+}
+.js_show_citylist{
+    padding-top: 10px;
+    line-height: 20px;
+}
+.city-list input{
+    display: inline-block;
+    vertical-align: middle;
+    margin: -2px 5px 0 0;padding:0;
+
+}
+.city-time{
+    display: inline-block;
+    padding-right: 20px;
+    height: 40px;
+    line-height: 40px;
+}
+.city-time b{
+    display: inline-block;
+    vertical-align: middle;
+}
+.city-time:first-child{
+    border-right: 1px solid #555;
+}
+.city-time:nth-child(2){
+    padding-left: 20px;
+}
+.city-time input.time-start{
+    width: 160px;
+    border: 1px solid #ccc;
+    height: 24px;
+    line-height:24px;
+    padding-left: 10px;
+}
+.set-argument{
+    display: inline-block;
+}
+.set-argument .argu-list{
+    margin-right: 20px;
+}
+.set-argument .argu-list input{
+    width: 60px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    height: 26px;
+    line-height: 26px;
+}
+.check-option{
+    width: 100px;
+    height: 26px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.add-reward{
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+
+/*活动列表*/
+.act-result{
+    width: 80%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.act-result-c{
+    height: 40px;
+    line-height: 40px;
+    background: #333 none repeat scroll 0 0;
+    width: 100%;
+    position: relative;margin-bottom: -1px;
+}
+.act-result-c .add-reward{
+    margin-top:0 ;
+}
+.act-result-title{
+    color: #fff;
+    float: left;
+    font-size: 16px;
+    font-weight: bolder;
+    padding-left: 20px;
+
+}
+.act-items{
+    width: 100%;
+    overflow: hidden;
+}
+.tr-title{
+    height: 40px;
+    line-height: 40px;
+    background: #cccccc;
+}
+.actlist-infor .col-01,.actlist-infor .col-02{
+    width:8%;
+}
+
+.actlist-infor .col-03{
+    width: 6%;
+}
+.actlist-infor .col-04{
+    width:8%;
+}
+.actlist-infor .col-05{
+    width: 8%;
+}
+.actlist-infor .col-06{
+    width: 20%;
+}
+.actlist-infor .col-07,.actlist-infor .col-08{
+    width: 11%;
+}
+.actlist-infor .col-09{
+    width: 6%;
+}
+.reward-infor .col-r01{
+    width: 7%;
+}
+.reward-infor .col-r05{
+    width: 6%;
+}
+.reward-infor .col-r08{
+    width: 14%;
+}
+.reward-infor .col-r09{
+    width: 9%;
+}
+.reward-infor .col-r11{
+    width: 8%;
+}
+.reward-infor tr,.actlist-infor tr{
+    border: 1px solid #555;
+}
+.reward-infor td,.actlist-infor td{
+    padding: 0;
+    text-align: center;
+    height: 30px;
+    vertical-align: middle;
+}
+.actlist-infor tr td:nth-child(6),.reward-infor tr td:nth-child(8){
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 135px;
+}
+.actlist-infor td .citylist,.reward-infor  td .citylist{
+    line-height: 18px;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.actlist-infor td:last-child a{
+    display: inline-block;
+    padding: 0 4px;
+}
+.act-detail{
+    width: 800px;
+    height:450px;
+    overflow: auto;
+    background: #ffffff;
+    padding:10px 20px;
+}
+.act-detail-con{
+    width: 100%;
+    overflow: hidden;
+
+}
+.act-detail-con h3{
+    text-align: center;
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+    line-height: 40px;
+}
+.detail-items{
+    border: 1px solid #333333; margin-bottom: 10px;
+}
+.detail-items .detail-col-1{
+    width: 20%;
+}
+.detail-items th{
+    background: #cccccc;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.detail-items tr,.detail-items td{
+    border: 1px solid #333333;line-height: 30px;
+    height: 30px;
+}
+.detail-items td {
+    padding-left: 20px;
+    text-align: left;
+}
+.detail-items td span{
+    margin-right: 10px;
+}
+.total-num{
+    padding: 0 10px;
+    font-size: 14px;
+}
+.act-rule{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.act-rule dt{
+    line-height: 30px;
+    font-size: 14px;
+    color: #333333;
+}
+.act-rule dd{
+    color: #555555;
+    line-height: 26px;
+}
+/*城市弹层*/
+.dialog-con{
+    width: 1000px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    background: #ffffff;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.all-city-con{
+    width: 100%;
+    overflow: hidden;
+
+}
+.city-check-title{
+    height: 30px;
+    line-height: 30px;
+    color: #333333;
+    padding: 0 20px;
+    border-bottom: 1px solid #cccccc;
+}
+.city-check-title h4{
+    font-size: 15px;
+    float: left;
+}
+.city-check-title .city-num{
+    float: left;
+    font-size: 14px;
+    padding: 0 5px;
+}
+.all-select{
+    float: right;
+    font-size: 14px;
+}
+.all-select a{
+    padding: 0 5px;
+    color: #ee4136;
+}
+.city-items{
+    height:400px;
+    padding: 10px 20px;
+    overflow: auto;
+}
+.city-item{
+    width: 300px;
+    height:260px;
+    overflow: auto;
+    max-height:300px;
+    float: left;
+    padding-right: 10px;
+    margin-bottom: 30px;
+}
+.city-item:nth-child(3n){
+    padding-right: 0;
+}
+.city-item dl dt,.city-item dl dt b{
+    line-height: 30px;
+    font-size: 14px;
+    color: #333333;
+    font-weight: bold;
+}
+.city-item dl dt a{
+    font-weight: normal;
+    color: #ee4136;
+    padding: 0 5px;
+}
+.city-detail{
+    width: 100%;
+    overflow: hidden;
+}
+.city-detail p{
+    float: left;
+    font-size: 14px;
+    /*font-weight: bold;*/
+    padding-right: 5px;
+    width: 15px;
+}
+.city-detail .city-list-num{
+    float: left;
+    width: 260px;
+}
+.city-detail .city-list-num label{
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 5px;
+}
+
+.err-item {
+    color: #f00;
+}
+/*
+.disable-btn{
+	background-color:#ccc;
+	border:none;
+	text-decoration:none;
+}
+*/

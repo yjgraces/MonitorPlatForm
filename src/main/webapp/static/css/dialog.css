@@ -1,0 +1,114 @@
+
+/*
+弹窗相关
+ */
+.ui_window {
+  background: #fff; 
+  font-size: 14px; 
+}
+.ui_window a{
+  text-decoration: none;
+}
+.ui_window .ui_pop_head {
+  position: relative;
+  background: #333;
+  font-size: 14px;
+  padding: 6px; 
+}
+
+.ui_pop_head_btn_close {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+  color: #fff;
+  cursor: pointer; 
+}
+
+.ui_pop_head .ui_pop_head_tit {
+  color: #fff; 
+}
+
+.ui_window .input_button_box {
+  font-size: 14px;
+  padding: 0 20px 20px;
+  text-align: center; 
+}
+
+.input_button_box a {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 4px 14px;
+  background: #333;
+  color: #fff;
+  border-radius: 2px; 
+}
+
+.input_button_box a:hover {
+  color: #fff; 
+}
+
+.ui_window .form-box {
+  padding: 10px; 
+}
+
+.message-dialog {
+  width: 300px; 
+}
+
+.message-dialog .tip {
+  padding: 15px;
+  text-align: center;
+  font-size: 14px; 
+}
+
+.alert-dialog {
+  width: 300px; 
+}
+
+.alert-dialog .tip {
+  padding: 15px;
+  text-align: center;
+  font-size: 14px; 
+}
+
+.confirm-dialog {
+  width: 300px;
+}
+
+.confirm-dialog .tip {
+  padding: 15px;
+  text-align: center;
+  font-size: 14px; 
+}
+
+.common-dialog .tip {
+  /*width:300px;*/ 
+}
+label.error{
+  display: block;
+  font-size: 12px;
+  color: red;  
+}
+.error-tip {
+  background: #fffbc1;
+  border: 1px solid #f0e1bf;
+  color: red;
+  font-size: 12px;
+  margin-bottom: 8px;
+  padding: 5px 9px;
+  position: relative;
+  text-align: center; 
+}
+
+.error-tip b {
+  font-weight: normal;
+  word-wrap: break-word; 
+}
+
+.error-tip .close {
+  position: absolute;
+  right: 5px;
+  top: 20%; 
+}
+
+

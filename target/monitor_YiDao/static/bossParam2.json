@@ -1,0 +1,16 @@
+{
+	"total" : "100",
+	"rows":[
+		{"uID":"1234213411" ,"uName":"9","actType":"时段","sendMode":"抢单","kinds":"舒适型","city":["北京市","上海市"],
+        "startTime":"2016-9-10 18:00","endTime":"2016-9-12 18:00","state":"已下线"},
+        {"uID":"1234213411" ,"uName":"9","actType":"时段","sendMode":"抢单","kinds":"舒适型","city":["北京市","上海市"],
+            "startTime":"2016-9-10 18:00","endTime":"2016-9-12 18:00","state":"已下线"},
+        {"uID":"1234213411" ,"uName":"9","actType":"时段","sendMode":"抢单","kinds":"舒适型","city":["北京市","上海市"],
+            "startTime":"2016-9-10 18:00","endTime":"2016-9-12 18:00","state":"已下线"},
+        {"uID":"1234213411" ,"uName":"9","actType":"时段","sendMode":"抢单","kinds":"舒适型","city":["北京市","上海市"],
+            "startTime":"2016-9-10 18:00","endTime":"2016-9-12 18:00","state":"已下线"},
+        {"uID":"1234213411" ,"uName":"9","actType":"时段","sendMode":"抢单","kinds":"舒适型","city":["北京市","上海市"],
+            "startTime":"2016-9-10 18:00","endTime":"2016-9-12 18:00","state":"已下线"}
+
+    ]
+}
